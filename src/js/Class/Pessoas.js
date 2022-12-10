@@ -16,8 +16,8 @@ class Pessoa {
     nomeAnimalzinho,
     tipoAnimal
   ) {
-    this.id = 1;
-          this.nomeCompleto = nomeCompleto;
+      this.id = 1;
+      this.nomeCompleto = nomeCompleto;
       this.endereco = endereco;
       this.email = email;
       this.telefone = telefone;
@@ -191,5 +191,4 @@ class Pessoa {
 let pessoa = new Pessoa();
 
 
-
-
+// module.exports = { Pessoa }
