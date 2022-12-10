@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f1f1;
+
+
+}
+
+header {
+    background-color: rgb(164, 60, 164);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.pessoas {
+background-color: rgb(240, 92, 240);
+}
+
+.card {
+ background-color: #ccc;
+ border: 1px solid ;
+ padding: 20px ;
+ margin-top: 15px;
+ border-radius: 5px;
+}
+
+.lineInput {
+    display: inline-block;
+    margin-bottom: 50px;
+
+}
+
+Input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+     width: 300px;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: purple;
+    color: #fff;
+    border-radius: 3px ;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background-color: rgb(42, 12, 42);
+}
+
+.content {
+    margin: 15px;
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(241, 172, 172);
+
+}
+
+table th, td {
+    padding: 1px 5px;
+    text-align: left;
+}
+
+
+
+.center {
+   text-align: center;
+}
+
+.formTutores {
+    
+    border: 3px solid black;
+    width: 500px;
+    padding: 10px;
+}
+
+.campo {
+    padding: 5px;
+
+}
+
+.todo-form {
+    justify-content: center;
+    display: flex;
+}
+

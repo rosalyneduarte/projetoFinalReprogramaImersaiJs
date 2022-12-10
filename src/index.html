@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+ 
+    <!-- <script src="./js/Class/Produto.js"> </script>
+    <script src="./js/Class/Animais.js"> </script> -->
+    <script src="./js/Class/Pessoas.js"> </script>
+
+
+</head>
+<body>
+
+
+    <div id="cincopa_14d98b" style=" overflow-x: hidden;scrollbar-color: #06c;">...</div><script type="text/javascript">
+        var cpo = []; cpo["_object"] ="cincopa_14d98b"; cpo["_fid"] = "AoKAk7uNuXel";
+        var _cpmp = _cpmp || []; _cpmp.push(cpo);
+        (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+        cp.async = true; cp.src = "https://rtcdn.cincopa.com/libasync.js";
+        var c = document.getElementsByTagName("script")[0];
+        c.parentNode.insertBefore(cp, c); })(); </script>
+
+        <!-- <div id="cincopa_2a88bc">...</div><script type="text/javascript">
+            var cpo = []; cpo["_object"] ="cincopa_2a88bc"; cpo["_fid"] = "AYPAz6uvuX0l";
+            var _cpmp = _cpmp || []; _cpmp.push(cpo);
+            (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+            cp.async = true; cp.src = "https://rtcdn.cincopa.com/libasync.js";
+            var c = document.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(cp, c); })(); </script> -->
+
+    <header>
+        <h1> 
+            Cadastro de Animais
+        </h1>
+    </header>
+
+    <main class="">
+
+    
+
+       <form class="todo-form"> 
+
+            <div class="formTutores">
+                <div class="campo">
+                    <label > Nome Completo </label>
+                    <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="seu nome completo">
+                </div>
+
+                <div class="campo">
+                    <label > Endereço </label>
+                    <input type="text" id="endereco" name="endereco" placeholder="endereço completo">
+                </div>
+
+                <div class="campo">
+                    <label > Email </label>
+                    <input type="email" id="email" name="email" placeholder="email">
+                </div>
+
+                <div class="campo">
+                    <label > Telefone </label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="telefone">
+                </div>
+
+                <div class="campo">
+                    <label > Nome do Animalzinho </label>
+                    <input type="text" id="nomeAnimalzinho" name="nomeAnimalzinho" placeholder="nome do seu pet">
+                </div>
+
+                <div class="campo">
+                    <label > Tipo de Animal </label>
+                    <input type="text" id="tipoAnimal" name="tipoAnimal" placeholder="Gatinho/Cachorro/Hamster">
+                </div>
+
+                <button onclick="pessoa.salvar()" id="btnAtualizar"> Salvar </button>     
+                <button onclick="pessoa.cancelar()"> Limpar </button>
+        
+            </div>
+
+        </form>
+        <br>
+        <br>
+
+        <div class="title"> 
+
+            <!-- <h1> CONTROLE DE TUTORES </h1> -->
+            <span> Animais Cadastrados para Adoção </span>
+        </div>
+
+        <div class="content">
+            <table border="1">
+               <thead>
+                <th class="center"> ID </th>
+                <th> Nome Completo </th>
+                <th> Endereço </th>
+                <th> Email </th>
+                <th> Telefone </th>
+                <th> Nome do Animalzinho </th>
+                <th> Tipo de Animal </th>
+                <th class="center"> Ações </th>
+               </thead>
+
+               <tbody id="tbody"> </tbody>
+
+            </table>
+
+        </div>
+    
+    </main>
+
+
+    <!-- <header>
+        <h1> 
+            Minha loja 1.0
+        </h1>
+    </header>
+
+    <main>
+
+        <div class="title"> 
+
+            <h1> CONTROLE DE PRODUTOS </h1>
+            <span> Lista de produtos da minha loja </span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label> Produto </label>
+                <input type="text" id="produto" placeholder="Nome do Produto">
+            </div>
+
+            <div class="lineInput">
+                <label> Preço </label>
+                <input type="number" id="preco" placeholder="Valor do Produto">
+            </div>
+
+            <button onclick="produto.salvar()" id="btnAtualizar"> Salvar Produto </button>     
+            <button onclick="produto.cancelar()"> Limpar </button>
+     
+        </div>
+
+        <div class="content">
+            <table border="1">
+               <thead>
+                <th class="center"> ID </th>
+                <th> Produto </th>
+                <th> Valor </th>
+                <th class="center"> Ações </th>
+               </thead>
+
+               <tbody id="tbody"> </tbody>
+
+            </table>
+
+        </div>
+    
+    </main> -->
+ 
+
+
+
+</body>
+</html>
+
+
+
+                <!-- <tr> 
+                    <td class="center"> 1 </td>
+                    <td> Mesa </td>
+                    <td> R$ 500,00 </td>
+                    <td class="center"> 
+                        <span > 🖊️ </span>
+                        <span > ❌ </span>
+                </tr> -->
